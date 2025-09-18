@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Samtect")(type "KiCad")(uri "C:/Users/karl.yamashita/Downloads/ul_FTSH-105-01-F-DV-K-TR/KiCADv6/footprints.pretty")(options "")(descr "Samtect 10-pin"))
+)

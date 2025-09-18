@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ab7e61a-dded-4b6f-b99e-cd46f552d40c")
+	(paper "A4")
+	(title_block
+		(title "Connectors")
+		(date "2025-09-17")
+		(comment 1 "Copyright 2025 Karl Yamashita")
+	)
+	(lib_symbols)
+)
