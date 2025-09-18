@@ -52,7 +52,52 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|152500000|90000000|30fd29ea-f05f-4d45-b5d5-261a2a14fba3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|125000000|111110000|277cf47c-a946-4d2b-bf0b-be95f962907a|7aa8ec38-d8ee-466e-acec-983bc169a650",
+          ""
+        ],
+        [
+          "silk_edge_clearance|125000000|98890000|277cf47c-a946-4d2b-bf0b-be95f962907a|5fb35a1e-ca88-4f10-8cf0-921f2814d920",
+          ""
+        ],
+        [
+          "silk_edge_clearance|190000000|119645000|277cf47c-a946-4d2b-bf0b-be95f962907a|1b89ba0d-25fa-416c-994f-41f52896f95a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|190000000|90245000|277cf47c-a946-4d2b-bf0b-be95f962907a|a952d3a7-dcdf-43bd-a73d-cadf9367d2fd",
+          ""
+        ],
+        [
+          "silk_over_copper|134222819|116879000|d4ca8ed7-59c8-4648-a3af-e67335903256|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|138530500|117387000|64fe9701-1c0f-4830-9363-273cede11ddc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|133413295|123102000|01c66bf5-15ca-4720-9169-6a21afb4d700|02e6ee3d-c688-4fe5-83d0-2c5a9064c317",
+          ""
+        ],
+        [
+          "silk_overlap|134222819|116498000|b36d140f-4883-4b54-ba5d-a755fc7d4b6a|d4ca8ed7-59c8-4648-a3af-e67335903256",
+          ""
+        ],
+        [
+          "silk_overlap|137382057|116498000|b36d140f-4883-4b54-ba5d-a755fc7d4b6a|dfae8f0d-68bb-43e6-ab01-635d2d308bcf",
+          ""
+        ],
+        [
+          "silk_overlap|138286819|123102000|01c66bf5-15ca-4720-9169-6a21afb4d700|785a7ca1-ecd9-4616-834e-d62400ab983d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -489,7 +534,7 @@
       "netlist": "USBCAN-X2.net",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "USBCAN-X2.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

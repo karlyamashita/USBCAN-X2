@@ -2305,6 +2305,12 @@
 		(uuid "4b60b06d-dd98-46ef-b47e-6a7745b53ff5")
 	)
 	(junction
+		(at 160.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d99fff3-7afd-4f4d-b59c-f2b1261355df")
+	)
+	(junction
 		(at 76.2 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2454,6 +2460,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 17.78) (xy 171.45 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a025c7e-2d3c-4e6d-bf80-63983d9e134b")
+	)
+	(wire
+		(pts
 			(xy 97.79 67.31) (xy 97.79 76.2)
 		)
 		(stroke
@@ -2521,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "2e8fe832-b34c-439c-8c3d-566cc6a4d1ac")
+	)
+	(wire
+		(pts
+			(xy 171.45 45.72) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3244be98-ea97-44a7-89c5-25b871a91518")
 	)
 	(wire
 		(pts
@@ -2601,6 +2627,16 @@
 			(type default)
 		)
 		(uuid "614a93d6-870e-465d-abd5-0c8cf2a57eab")
+	)
+	(wire
+		(pts
+			(xy 171.45 34.29) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6553a35d-090e-4551-9a79-bdbb968819f7")
 	)
 	(wire
 		(pts
@@ -2814,6 +2850,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8b5fa1-5883-4c92-b2c4-aaf8a1a59941")
+	)
+	(wire
+		(pts
 			(xy 100.33 67.31) (xy 100.33 76.2)
 		)
 		(stroke
@@ -2954,6 +3000,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3fa6b6-88bb-4b95-b142-63e5135b74f4")
+	)
+	(wire
+		(pts
 			(xy 80.01 96.52) (xy 74.93 96.52)
 		)
 		(stroke
@@ -3042,6 +3098,16 @@
 		)
 		(uuid "56b26f4c-6455-4f67-8faa-7259905970c7")
 	)
+	(label "LED_PA2"
+		(at 171.45 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a2d3f31-513e-41f9-890a-11ba0662178f")
+	)
 	(label "3.3V"
 		(at 43.18 90.17 90)
 		(effects
@@ -3071,6 +3137,16 @@
 			(justify left bottom)
 		)
 		(uuid "804fb88f-1c5c-4db5-93b0-e26955fa81de")
+	)
+	(label "LED_PA2"
+		(at 121.92 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cb461d6-95df-49d2-880e-bd3ce6f48f6f")
 	)
 	(label "LED_PA0"
 		(at 149.86 25.4 90)
@@ -4078,6 +4154,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 171.45 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "916b020b-7839-4531-9f27-98ff97d5ad96")
+		(property "Reference" "R7"
+			(at 173.99 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 173.99 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.466 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 171.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b54d1c3b-9b53-4dd8-b904-f3d6910eea26")
+		)
+		(pin "1"
+			(uuid "90c42b92-c2ed-4b9b-a151-8918179bc81b")
+		)
+		(instances
+			(project "USBCAN-X2"
+				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 165.1 0)
 		(unit 1)
@@ -4554,6 +4700,85 @@
 			(project ""
 				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb05556-a490-4e78-8481-033a56f87af6")
+		(property "Reference" "D3"
+			(at 175.26 42.2274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 175.26 44.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 171.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83a37db3-8de2-4514-8feb-d4173f02bf8d")
+		)
+		(pin "2"
+			(uuid "ccacc0b1-71e6-4abd-82b5-f542fd3c928b")
+		)
+		(instances
+			(project "USBCAN-X2"
+				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8"
+					(reference "D3")
 					(unit 1)
 				)
 			)
