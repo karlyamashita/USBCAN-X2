@@ -2,6 +2,9 @@ USBCAN-X2 dual CAN bus analyzer using a STM32G491CE.
 
 The schematic and gerber files are open source.
 
+### Description
+I am finding it difficult to find a vendor that sells a dual CAN bus analyzer that uses an STM32 that is open source and does not read protect the STM32 at RDP level 2. Most that i've contacted are using NXP or a Chinese brand microcontroller. 
+
 ### PCB
 The PBC was designed around the USBCAN-2A, matching the USB and screw terminal connector. The LED's are 3 different colors, Green, Blue and Red.
 
