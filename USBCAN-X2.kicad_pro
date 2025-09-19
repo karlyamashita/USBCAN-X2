@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.4,
+          "height": 2.8,
+          "width": 2.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -66,35 +66,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|190000000|119645000|277cf47c-a946-4d2b-bf0b-be95f962907a|1b89ba0d-25fa-416c-994f-41f52896f95a",
+          "silk_edge_clearance|190000000|119645000|277cf47c-a946-4d2b-bf0b-be95f962907a|6dd80cdb-cb27-4fea-92ca-8d716fb1731e",
           ""
         ],
         [
-          "silk_edge_clearance|190000000|90245000|277cf47c-a946-4d2b-bf0b-be95f962907a|a952d3a7-dcdf-43bd-a73d-cadf9367d2fd",
-          ""
-        ],
-        [
-          "silk_over_copper|134222819|116879000|d4ca8ed7-59c8-4648-a3af-e67335903256|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|138530500|117387000|64fe9701-1c0f-4830-9363-273cede11ddc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|133413295|123102000|01c66bf5-15ca-4720-9169-6a21afb4d700|02e6ee3d-c688-4fe5-83d0-2c5a9064c317",
-          ""
-        ],
-        [
-          "silk_overlap|134222819|116498000|b36d140f-4883-4b54-ba5d-a755fc7d4b6a|d4ca8ed7-59c8-4648-a3af-e67335903256",
-          ""
-        ],
-        [
-          "silk_overlap|137382057|116498000|b36d140f-4883-4b54-ba5d-a755fc7d4b6a|dfae8f0d-68bb-43e6-ab01-635d2d308bcf",
-          ""
-        ],
-        [
-          "silk_overlap|138286819|123102000|01c66bf5-15ca-4720-9169-6a21afb4d700|785a7ca1-ecd9-4616-834e-d62400ab983d",
+          "silk_edge_clearance|190000000|90245000|277cf47c-a946-4d2b-bf0b-be95f962907a|7b2e4a2b-4edb-4129-a965-8fc2e32f8c00",
           ""
         ]
       ],
@@ -532,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "USBCAN-X2.net",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "USBCAN-X2.dsn",
       "step": "",
@@ -605,12 +581,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

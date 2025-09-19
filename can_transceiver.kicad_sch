@@ -1066,7 +1066,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 110.49 114.2999 0)
 			(effects
 				(font
@@ -1094,6 +1094,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-C0603ZRY5V9BB104"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -1268,7 +1277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 110.49 45.7199 0)
 			(effects
 				(font
@@ -1296,6 +1305,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-C0603ZRY5V9BB104"
 			(at 106.68 44.45 0)
 			(effects
 				(font
@@ -1367,6 +1385,15 @@
 			)
 		)
 		(property "Description" "CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8"
+			(at 87.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "579-MCP2542FD-E/SN"
 			(at 87.63 129.54 0)
 			(effects
 				(font
@@ -1459,6 +1486,15 @@
 			)
 		)
 		(property "Description" "CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8"
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "579-MCP2542FD-E/SN"
 			(at 87.63 63.5 0)
 			(effects
 				(font

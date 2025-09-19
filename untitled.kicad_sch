@@ -2750,26 +2750,6 @@
 		)
 		(uuid "fbcb2587-d675-4145-a507-3683b1495b60")
 	)
-	(label "3.3V"
-		(at 148.59 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46e62a0a-18c7-4ebc-b134-f9425a1360b2")
-	)
-	(label "3.3V"
-		(at 209.55 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe619e03-c652-4993-898e-d4a7f84e8f89")
-	)
 	(global_label "USB_N"
 		(shape bidirectional)
 		(at 82.55 105.41 0)
@@ -2968,6 +2948,28 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 207.01 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b08f3d65-0f4c-4fd2-b320-d9f5ca3c119f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.9124 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 229.87 100.33 0)
@@ -3110,6 +3112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-RC0603FR-13120RL"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7ab3a12-aa26-46b5-9d8b-e73f1aaa4d17")
 		)
@@ -3172,6 +3183,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "649-220110-C081A01LF"
 			(at 236.22 44.45 0)
 			(effects
 				(font
@@ -3325,6 +3345,15 @@
 			)
 		)
 		(property "Description" "50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-252/SOT-223"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-LM2936QMP3.3NPB"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -3605,6 +3634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-RC0603FR-13120RL"
+			(at 191.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82cf9690-e56f-4fee-b656-1d244b4e96b1")
 		)
@@ -3741,6 +3779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-C0603ZRY5V9BB104"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f993545-e8ef-4da1-836e-790474609894")
 		)
@@ -3809,6 +3856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "523-UE27-BC54-100"
+			(at 68.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "664b48ad-6ca1-4ccf-b960-36f695251de8")
 		)
@@ -3859,7 +3915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samtect:CON10_2X5_DUK_FTSH_SAI"
+		(property "Footprint" "Samtect:CON10_2X5_DUK_FTSH_SAI-M"
 			(at 222.25 105.41 0)
 			(effects
 				(font
@@ -3878,6 +3934,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-FTSH10501LDVKP"
 			(at 222.25 105.41 0)
 			(effects
 				(font
@@ -3944,7 +4009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "15uF"
 			(at 110.49 106.0449 0)
 			(effects
 				(font
@@ -3972,6 +4037,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "667-10SVP15M"
 			(at 106.68 105.41 0)
 			(effects
 				(font

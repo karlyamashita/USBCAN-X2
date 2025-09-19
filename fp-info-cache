@@ -1,4 +1,4 @@
-26634610375617310
+26643401296133976
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -7020,6 +7020,13 @@ RC
 0
 4
 3
+Connector_Amphenol
+Amphenol Anytek OQ0812510000G
+
+
+0
+8
+8
 Connector_Amphenol
 Amphenol_M8S-03PMMR-SF8001
 M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)
@@ -97103,6 +97110,34 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+Samtect
+CON10_2X5_DUK_FTSH_SAI
+
+FTSH-105-01-F-DV-K-TR 
+0
+10
+10
+Samtect
+CON10_2X5_DUK_FTSH_SAI-L
+
+FTSH-105-01-F-DV-K-TR 
+0
+10
+10
+Samtect
+CON10_2X5_DUK_FTSH_SAI-M
+
+FTSH-105-01-F-DV-K-TR 
+0
+10
+10
+Samtect
+Untitled
+
+
+0
+0
+0
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
