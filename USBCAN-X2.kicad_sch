@@ -2260,16 +2260,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BOOT0"
-		(exclude_from_sim no)
-		(at 48.26 110.744 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "037c8edc-5d84-4234-b17e-9f709c0fb865")
-	)
 	(text "Place each near VDD of STM32"
 		(exclude_from_sim no)
 		(at 73.152 38.354 0)
@@ -3642,10 +3632,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10fa49b2-7822-4ad1-9b3b-f2ba20b505da")
 		(property "Reference" "D1"
-			(at 165.1 117.1574 90)
+			(at 155.194 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,8 +3642,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Green"
-			(at 165.1 119.6974 90)
+		(property "Value" "LED Red"
+			(at 149.606 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-150060GS83000"
+		(property "Mouser" "710-150060RS83000"
 			(at 161.29 116.84 90)
 			(effects
 				(font
@@ -3954,10 +3943,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53c5c3c3-4446-4dae-bf91-1046cf87620b")
 		(property "Reference" "D2"
-			(at 175.26 117.1574 90)
+			(at 170.434 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,8 +3953,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Blue"
-			(at 175.26 119.6974 90)
+		(property "Value" "LED Green"
+			(at 170.434 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +3998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-150060BS83000"
+		(property "Mouser" "710-150060GS83000"
 			(at 171.45 116.84 90)
 			(effects
 				(font
@@ -4051,8 +4039,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 31.496 106.426 0)
+		(property "Value" "BOOT0"
+			(at 36.83 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Red"
+		(property "Value" "LED Blue"
 			(at 186.69 119.6974 90)
 			(effects
 				(font
@@ -4995,7 +4983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-150060RS83000"
+		(property "Mouser" "710-150060BS83000"
 			(at 182.88 116.84 90)
 			(effects
 				(font

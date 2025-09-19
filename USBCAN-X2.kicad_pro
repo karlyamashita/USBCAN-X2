@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 2.8,
-          "width": 2.8
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,6 +58,14 @@
           ""
         ],
         [
+          "lib_footprint_issues|136606100|119800000|f2723051-f693-42a1-b43f-cd14cbe173d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|152550000|118760000|619ce1cc-d497-4a4d-9fc5-40a27cd53ae7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|125000000|111110000|277cf47c-a946-4d2b-bf0b-be95f962907a|7aa8ec38-d8ee-466e-acec-983bc169a650",
           ""
         ],
@@ -71,6 +79,14 @@
         ],
         [
           "silk_edge_clearance|190000000|90245000|277cf47c-a946-4d2b-bf0b-be95f962907a|7b2e4a2b-4edb-4129-a965-8fc2e32f8c00",
+          ""
+        ],
+        [
+          "starved_thermal|143350000|105175000|99ebb9ac-2178-441e-8061-88322026d18c|af0a7d1c-5efe-4c18-9bb3-684b8173978a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|167200000|107625000|99ebb9ac-2178-441e-8061-88322026d18c|f450fe62-ef0b-4dfc-8155-98c0e0da6a6d|F.Cu",
           ""
         ]
       ],
