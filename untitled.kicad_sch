@@ -2057,42 +2057,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM2936-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:NCP163ASN330T1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 3.175 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM2936-3.3"
-				(at 0 3.175 0)
+			(property "Value" "NCP163ASN330T1G"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2936.pdf"
-				(at 0 -1.27 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2100,7 +2086,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-252/SOT-223"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250mA low-noise LDO, 2.2V-5.5V input, 3.3V output, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2109,7 +2104,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "ki_keywords" "LDO regulator voltage"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2118,7 +2113,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?252* SOT?223*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2127,9 +2122,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2936-3.3_0_1"
+			(symbol "NCP163ASN330T1G_0_1"
 				(rectangle
-					(start -5.08 1.905)
+					(start -5.08 5.08)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
@@ -2140,11 +2135,11 @@
 					)
 				)
 			)
-			(symbol "LM2936-3.3_1_1"
+			(symbol "NCP163ASN330T1G_1_1"
 				(pin power_in line
-					(at -7.62 0 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VI"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2152,6 +2147,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2177,17 +2190,36 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "VO"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2337,6 +2369,12 @@
 		(uuid "3af03069-a43b-46f5-bc9b-911093218298")
 	)
 	(junction
+		(at 129.54 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43219f1c-e81b-42b3-9bb6-a49c158df38d")
+	)
+	(junction
 		(at 207.01 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2355,6 +2393,12 @@
 		(uuid "6dbe1a77-09f2-4c3a-a625-1430428517c2")
 	)
 	(junction
+		(at 116.84 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e656643-b873-4ca4-9f0e-2fa3c9663fad")
+	)
+	(junction
 		(at 227.33 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,6 +2415,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6e98dfa-8ab1-4ed6-a42a-462ad9f9fe0b")
+	)
+	(junction
+		(at 116.84 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c9faf4-67e1-4ab7-8bf9-75870cd170d4")
 	)
 	(junction
 		(at 227.33 49.53)
@@ -2532,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 102.87) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31728485-bc6c-4881-ab11-5c6a97c574dd")
+	)
+	(wire
+		(pts
 			(xy 106.68 109.22) (xy 106.68 113.03)
 		)
 		(stroke
@@ -2602,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 105.41) (xy 129.54 109.22)
+			(xy 129.54 105.41) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 121.92 97.79)
+			(xy 106.68 97.79) (xy 116.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2679,6 +2739,16 @@
 			(type default)
 		)
 		(uuid "77c40024-2b7c-4513-8825-fbe30e28a7ce")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78256bd8-9aba-4872-a175-9cf239e6c141")
 	)
 	(wire
 		(pts
@@ -2792,6 +2862,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 118.11) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83cadba-6143-4c19-a566-166346b1098b")
+	)
+	(wire
+		(pts
 			(xy 227.33 41.91) (xy 227.33 39.37)
 		)
 		(stroke
@@ -2829,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "bb5449a1-dc6c-4de9-8076-cecd6fdf6503")
+	)
+	(wire
+		(pts
+			(xy 121.92 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef8176c-82b8-420b-a175-52e7985beae9")
 	)
 	(wire
 		(pts
@@ -2872,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 107.95) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0a73fb-1338-41e5-86c2-8d3771a85018")
+	)
+	(wire
+		(pts
 			(xy 68.58 113.03) (xy 68.58 118.11)
 		)
 		(stroke
@@ -2879,6 +2979,16 @@
 			(type default)
 		)
 		(uuid "e5b73674-a752-42fa-aa90-f4e74829f047")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e935662c-accb-486f-8665-55319108be05")
 	)
 	(wire
 		(pts
@@ -3403,6 +3513,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:NCP163ASN330T1G")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375c377e-1478-4574-bc32-f12e8ea32812")
+		(property "Reference" "U5"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST730M33R"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "ST730M33R"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8f6cf2a2-a91f-4bbe-ba2c-abb1c18fc792")
+		)
+		(pin "5"
+			(uuid "e427a9e5-9a52-4103-b483-141e1b3a55cc")
+		)
+		(pin "4"
+			(uuid "b848ccbd-c9f3-48ef-950a-cd7221a1056d")
+		)
+		(pin "2"
+			(uuid "98688029-9bb6-4811-a822-95788ae054b1")
+		)
+		(pin "1"
+			(uuid "2b428084-3bdb-4da4-9434-9e2c42ad608c")
+		)
+		(instances
+			(project ""
+				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8/febb179f-73ed-41de-a11e-91fdb2e67b79"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
 		(at 236.22 44.45 0)
 		(unit 1)
@@ -3500,6 +3696,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 116.84 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52dfcb9d-ea6c-4ed8-a3d7-f977b7521c8c")
+		(property "Reference" "C11"
+			(at 120.65 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 120.65 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 117.8052 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-C0603ZRY5V9BB104"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5177034a-bc06-4807-9e1c-a184aa46e5ec")
+		)
+		(pin "1"
+			(uuid "02aa9336-8cc8-460d-bbb6-ebe5601777aa")
+		)
+		(instances
+			(project "USBCAN-X2"
+				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8/febb179f-73ed-41de-a11e-91fdb2e67b79"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 113.03 0)
 		(unit 1)
@@ -3560,87 +3835,6 @@
 			(project "USBCAN-X2"
 				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8/febb179f-73ed-41de-a11e-91fdb2e67b79"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM2936-3.3")
-		(at 129.54 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58d2c8f9-2649-46a6-8d71-1ee23fbfb7f2")
-		(property "Reference" "U2"
-			(at 129.54 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2936-3.3"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 129.54 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2936.pdf"
-			(at 129.54 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-252/SOT-223"
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "595-LM2936QMP3.3NPB"
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "294c73e6-d574-4847-a3f0-2b8ddfc38db2")
-		)
-		(pin "1"
-			(uuid "c4058c9a-d94f-45b0-83dc-f23e85f51859")
-		)
-		(pin "2"
-			(uuid "31b80bcd-a9dc-4f35-8b1f-3f8c480d2112")
-		)
-		(instances
-			(project ""
-				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8/febb179f-73ed-41de-a11e-91fdb2e67b79"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3985,6 +4179,72 @@
 			(project ""
 				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8/febb179f-73ed-41de-a11e-91fdb2e67b79"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4b6607-e52c-462c-9b4b-9a2cfe7d042d")
+		(property "Reference" "#PWR015"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9087e2b6-7573-4dbd-a827-4a91dfc7735e")
+		)
+		(instances
+			(project "USBCAN-X2"
+				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8/febb179f-73ed-41de-a11e-91fdb2e67b79"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

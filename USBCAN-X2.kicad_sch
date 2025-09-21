@@ -2384,6 +2384,12 @@
 		(color 0 0 0 0)
 		(uuid "f01ac3f0-e920-41f4-bb87-6dc320f0ee16")
 	)
+	(junction
+		(at 77.47 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe423b9f-7e0c-4fa6-90eb-12a637da60d5")
+	)
 	(no_connect
 		(at 115.57 96.52)
 		(uuid "0e3e8f22-86f7-456e-b999-03b98d8eeed2")
@@ -2391,10 +2397,6 @@
 	(no_connect
 		(at 80.01 137.16)
 		(uuid "104ee1fd-f55d-408d-9e8b-8e6be2415336")
-	)
-	(no_connect
-		(at 80.01 88.9)
-		(uuid "21d51559-81c3-4f02-be68-b5c02b4c65f6")
 	)
 	(no_connect
 		(at 80.01 149.86)
@@ -2716,6 +2718,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e3e881-cab2-4e39-b3ee-8f4e47bae5bf")
+	)
+	(wire
+		(pts
 			(xy 182.88 109.22) (xy 182.88 113.03)
 		)
 		(stroke
@@ -2813,6 +2825,16 @@
 			(type default)
 		)
 		(uuid "848cdb06-38a1-451e-a9e5-749572936884")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e31df5-d820-448b-86ea-b2ed3b560a9b")
 	)
 	(wire
 		(pts
@@ -2936,16 +2958,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 92.71 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47f3b91-8cf7-4bbd-95eb-a782a392db0d")
-	)
-	(wire
-		(pts
 			(xy 43.18 85.09) (xy 43.18 92.71)
 		)
 		(stroke
@@ -3013,6 +3025,16 @@
 			(type default)
 		)
 		(uuid "d00b1b64-c123-4c53-b9b9-78300a264cd1")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bc9e42-a038-4a0a-bda8-2d4daaa874e9")
 	)
 	(wire
 		(pts
@@ -3106,6 +3128,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 88.9) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2ba67d-0b26-484f-bde2-957212a16c97")
+	)
+	(wire
+		(pts
 			(xy 115.57 88.9) (xy 182.88 88.9)
 		)
 		(stroke
@@ -3153,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "ef79bf29-4432-4a99-a976-e6fcebd654f3")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a49cad-629b-4db1-8564-9601b73b7e2a")
 	)
 	(wire
 		(pts
@@ -4598,6 +4640,84 @@
 			(project "USBCAN-X2"
 				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 73.66 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb99e1b2-8894-416f-8f9e-719b999bd12e")
+		(property "Reference" "R8"
+			(at 68.834 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 68.072 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.676 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-7W10KL"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eb0bd68-b1d6-4251-9642-d3c59cdaf7a8")
+		)
+		(pin "1"
+			(uuid "f72bfd35-bfa7-4dbb-90e2-31249cfb62fb")
+		)
+		(instances
+			(project "USBCAN-X2"
+				(path "/545a5907-9f92-4fcd-ad93-c3335194e6e8"
+					(reference "R8")
 					(unit 1)
 				)
 			)
