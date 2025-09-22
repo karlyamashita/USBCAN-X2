@@ -23,7 +23,7 @@ CAN-X will support the USBCAN-X2 once the Firmware is done.
 This is the 3D image of the USBCAN-X2
 
 `USBCAN-X2`
-<img width="1724" height="938" alt="Image" src="https://github.com/user-attachments/assets/2ed79b4e-b676-420d-b28a-e8b00d68451f" />
+<img width="1724" height="938" alt="Image" src="https://github.com/user-attachments/assets/d400a6a0-a250-4af5-a005-0eb57f2f068c" />
 
 
 
