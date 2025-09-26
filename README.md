@@ -8,7 +8,7 @@ I have been working on a [CAN Jammer](https://github.com/karlyamashita/CAN_Jamme
 Because of the difficulties of finding a dual CAN bus analyzer, I've decided to create this open source project. Since FDCAN is becoming more mainstream, I've decided to use the STM32G491CE with FDCAN controllers which meet the requirements. 
 
 ### PCB
-The PBC was designed around the USBCAN-2A, matching the USB and screw terminal connector. I am hoping some Chinese or someone local will start to manufacture this project to make readily available for purchase. Since the plastic case seems to be a dime a dozen, it will make it easier fo manufacturers to have a completely enclosed product without the need to tool for a new case, if I did create a different size PCB.
+The PBC was designed around the USBCAN-2A, matching the USB and screw terminal connector. I am hoping some Chinese manufacturer or someone local will start to manufacture this project to make readily available for purchase. Since the plastic case seems to be a dime a dozen, it will make it easier fo manufacturers to have a completely enclosed product without the need to tool for a new case, if I did create a different size PCB.
 
 `USBCAN-2A`
 <img width="1400" height="504" alt="Image" src="https://github.com/user-attachments/assets/289c474b-fdd6-44b0-b219-7b2e3e7a5577" />
